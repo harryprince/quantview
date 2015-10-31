@@ -47,7 +47,7 @@
         <div id="page-wrapper">
             <div class="row">
                 <div class="col-lg-12">
-                    <h1 class="page-header">冰箱总览</h1>
+                    <h1 class="page-header">冰柜总览</h1>
                 </div>
                 <!-- /.col-lg-12 -->
             </div>
@@ -62,7 +62,7 @@
                                 </div>
                                 <div class="col-xs-9 text-right">
                                     <div class="large">124,821</div>
-                                    <div class="medium">在线冰箱</div>
+                                    <div class="medium">在线冰柜</div>
                                 </div>
                             </div>
                         </div>
@@ -84,7 +84,7 @@
                                 </div>
                                 <div class="col-xs-9 text-right">
                                     <div class="large">121</div>
-                                    <div class="medium">离线冰箱</div>
+                                    <div class="medium">离线冰柜</div>
                                 </div>
                             </div>
                         </div>
@@ -106,7 +106,7 @@
                                 </div>
                                 <div class="col-xs-9 text-right">
                                     <div class="large">631,234</div>
-                                    <div class="medium">待修冰箱</div>
+                                    <div class="medium">待修冰柜</div>
                                 </div>
                             </div>
                         </div>

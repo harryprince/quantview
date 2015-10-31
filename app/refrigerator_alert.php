@@ -43,7 +43,7 @@
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-lg-12">
-                        <h1 class="page-header">冰柜地图</h1>
+                        <h1 class="page-header">冰柜预警</h1>
 
 
 
@@ -95,7 +95,7 @@
                 
                 var option = {
     title : {
-        text: '全国各地冰柜',
+        text: '全国各地冰柜预警',
         subtext: '',
         sublink: '',
         x:'center'
