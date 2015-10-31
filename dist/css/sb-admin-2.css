@@ -6,6 +6,7 @@
 
 body {
     background-color: #f8f8f8;
+    font-family: 'Arial','Heiti SC','Microsoft Yahei',simsun,sans-serif;
 }
 
 #wrapper {
@@ -293,6 +294,14 @@ table.dataTable thead .sorting:after {
 
 .show-grid {
     margin: 15px 0;
+}
+
+.medium {
+    font-size: 24px;
+}
+
+.large {
+    font-size: 30px;
 }
 
 .huge {
