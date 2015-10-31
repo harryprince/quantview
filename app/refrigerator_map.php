@@ -43,7 +43,7 @@
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-lg-12">
-                        <h1 class="page-header">销售地图</h1>
+                        <h1 class="page-header">冰箱地图</h1>
 
 
 
