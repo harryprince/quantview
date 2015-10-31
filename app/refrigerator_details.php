@@ -133,7 +133,7 @@
 
     <script>
         function updateStoreData(data) {
-            console.log(data);
+            // console.log(data);
             if (data.total) {
                 $('#data-slots').text(data.total);
                 $('#data-occupied').text(data.used);
@@ -150,6 +150,7 @@
                     $('#data-photo').attr('src', data.url);
                 }
                 if (data.data) {
+                    $('#data-contents').empty();
                     var item = data.data;
                     for (var k in item) {
                         $('#data-contents').append( "<span class='item-detail'><strong>" + k + "</strong>: " + item[k] + "</span>" );
@@ -161,16 +162,19 @@
     $( document ).ready(function() {
 
 
-         $.ajax({
-            url: 'http://112.126.76.163:8082/home', 
+        (function worker() {
+          $.ajax({
+            url: 'http://112.126.76.163:8082/home',  
             success: function(result) {
               updateStoreData(result);
               // console.log(data);
             },
             complete: function() {
-              // setTimeout(worker, 5000);
+              setTimeout(worker, 5000);
             }
           });
+        })();
+
     });
 
 
