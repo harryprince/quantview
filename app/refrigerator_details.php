@@ -164,7 +164,7 @@
 
         (function worker() {
           $.ajax({
-            url: 'http://112.126.76.163:8082/home',  
+            url: 'http://112.126.76.163:8082',  
             success: function(result) {
               updateStoreData(result);
               // console.log(data);
