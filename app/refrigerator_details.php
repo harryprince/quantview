@@ -88,7 +88,7 @@
                         <span id="data-long" class="store-data">未知</span>,
                         <span id="data-lat" class="store-data">未知</span>
                     </div>
-                </div>                
+                </div>
                 <div class="col-sm-6">
                     <div class="medium">
                         冰柜温度：
@@ -105,20 +105,20 @@
                     <div class="medium">
                         冰柜内冰淇淋数量：
                         <span id="data-occupied" class="store-data">未知</span>
-                    </div>                    
-                </div>                 
+                    </div>
+                </div>
             </div>
             <div class="row">
                 <div class="col-sm-12">
                     <div class="medium">
                         冰柜内冰淇淋种类：
                     </div>
-                    <div id="data-contents"></div> 
+                    <div id="data-contents"></div>
                 </div>
             </div>
             <div class="real-time-photo">
                 <img id="data-photo" />
-            </div>   
+            </div>
             <!-- /.row -->
         </div>
         <!-- /#page-wrapper -->
@@ -153,7 +153,7 @@
                 }
                 else {
                     $('#data-status').text('离线');
-                    $('#data-status').removeClass( "online offline" ).addClass( "offline" );                    
+                    $('#data-status').removeClass( "online offline" ).addClass( "offline" );
                 }
                 if (data.url) {
                     $('#data-photo').attr('src', data.url);
@@ -173,13 +173,13 @@
 
         (function worker() {
           $.ajax({
-            url: 'http://112.126.76.163:8082',  
+            url: 'http://112.126.76.163:8082',
             success: function(result) {
               updateStoreData(result);
-              // console.log(data);
+              console.log(result);
             },
             complete: function() {
-              setTimeout(worker, 5000);
+              // setTimeout(worker, 5000);
             }
           });
         })();
