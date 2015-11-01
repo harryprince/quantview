@@ -106,7 +106,7 @@
     legend: {
         orient: 'vertical',
         x:'left',
-        data:['存货量']
+        data:['冰柜数量']
     },
     dataRange: {
         min : 0,
@@ -128,7 +128,7 @@
     },
     series : [
         {
-            name: '存货量',
+            name: '冰柜数量',
             type: 'map',
             mapType: 'china',
             hoverable: false,

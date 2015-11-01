@@ -105,7 +105,7 @@
                                     <i class="fa fa-clock-o fa-5x"></i>
                                 </div>
                                 <div class="col-xs-9 text-right">
-                                    <div class="large">631,234</div>
+                                    <div class="large">14</div>
                                     <div class="medium">待修冰柜</div>
                                 </div>
                             </div>
@@ -127,7 +127,7 @@
                                     <i class="fa fa-info-circle fa-5x"></i>
                                 </div>
                                 <div class="col-xs-9 text-right">
-                                    <div class="large">1,332,120</div>
+                                    <div class="large">9</div>
                                     <div class="medium">地理位置异常</div>
                                 </div>
                             </div>

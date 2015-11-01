@@ -147,7 +147,7 @@
                 <div class="col-lg-8">
                     <div class="panel panel-default">
                         <div class="panel-heading">
-                            <i class="fa fa-bar-chart-o fa-fw"></i> 实时销售量
+                            <i class="fa fa-bar-chart-o fa-fw"></i> 销售量
                         </div>
                         <!-- /.panel-heading -->
                         <div class="panel-body">
@@ -161,59 +161,44 @@
 
                     <div class="panel panel-default">
                         <div class="panel-heading">
-                            <i class="fa fa-bell fa-fw"></i> 最新销售
+                            <i class="fa fa-bell fa-fw"></i> 最新动态
                         </div>
                         <!-- /.panel-heading -->
                         <div class="panel-body">
                             <div class="list-group">
                                 <a href="#" class="list-group-item">
-                                    <i class="fa fa-comment fa-fw"></i> New Comment
-                                    <span class="pull-right text-muted small"><em>4 minutes ago</em>
-                                    </span>
+                                    <i class="fa fa-comment fa-fw"></i> 北京朝阳区京客隆冰柜高温异常
                                 </a>
                                 <a href="#" class="list-group-item">
-                                    <i class="fa fa-twitter fa-fw"></i> 3 New Followers
-                                    <span class="pull-right text-muted small"><em>12 minutes ago</em>
-                                    </span>
+                                    <i class="fa fa-comment fa-fw"></i> 北京望京西街45号冰柜待修
                                 </a>
                                 <a href="#" class="list-group-item">
-                                    <i class="fa fa-envelope fa-fw"></i> Message Sent
-                                    <span class="pull-right text-muted small"><em>27 minutes ago</em>
-                                    </span>
+                                    <i class="fa fa-comment fa-fw"></i>  北京西城区大龙广场冰柜待修
                                 </a>
                                 <a href="#" class="list-group-item">
-                                    <i class="fa fa-tasks fa-fw"></i> New Task
-                                    <span class="pull-right text-muted small"><em>43 minutes ago</em>
-                                    </span>
+                                    <i class="fa fa-comment fa-fw"></i> 北京广渠门大街22号冰柜离线
                                 </a>
                                 <a href="#" class="list-group-item">
-                                    <i class="fa fa-upload fa-fw"></i> Server Rebooted
-                                    <span class="pull-right text-muted small"><em>11:32 AM</em>
-                                    </span>
+                                    <i class="fa fa-comment fa-fw"></i>  北京西城区大龙广场冰柜待修
                                 </a>
                                 <a href="#" class="list-group-item">
-                                    <i class="fa fa-bolt fa-fw"></i> Server Crashed!
-                                    <span class="pull-right text-muted small"><em>11:13 AM</em>
-                                    </span>
+                                    <i class="fa fa-comment fa-fw"></i> 北京朝阳区京客隆冰柜高温异常
                                 </a>
                                 <a href="#" class="list-group-item">
-                                    <i class="fa fa-warning fa-fw"></i> Server Not Responding
-                                    <span class="pull-right text-muted small"><em>10:57 AM</em>
-                                    </span>
+                                    <i class="fa fa-comment fa-fw"></i> 北京望京西街45号冰柜待修
                                 </a>
                                 <a href="#" class="list-group-item">
-                                    <i class="fa fa-shopping-cart fa-fw"></i> New Order Placed
-                                    <span class="pull-right text-muted small"><em>9:49 AM</em>
-                                    </span>
+                                    <i class="fa fa-comment fa-fw"></i>  北京西城区大龙广场冰柜待修
                                 </a>
                                 <a href="#" class="list-group-item">
-                                    <i class="fa fa-money fa-fw"></i> Payment Received
-                                    <span class="pull-right text-muted small"><em>Yesterday</em>
-                                    </span>
+                                    <i class="fa fa-comment fa-fw"></i> 北京广渠门大街22号冰柜离线
+                                </a>
+                                <a href="#" class="list-group-item">
+                                    <i class="fa fa-comment fa-fw"></i>  北京西城区大龙广场冰柜待修
                                 </a>
                             </div>
                             <!-- /.list-group -->
-                            <a href="#" class="btn btn-default btn-block">View All Alerts</a>
+                            <a href="#" class="btn btn-default btn-block">查看全部</a>
                         </div>
                         <!-- /.panel-body -->
                     </div>

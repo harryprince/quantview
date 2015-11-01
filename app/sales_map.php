@@ -95,7 +95,7 @@
                 
                 var option = {
     title : {
-        text: '全国各地存货量',
+        text: '全国各地销售量',
         subtext: '',
         sublink: '',
         x:'center'
@@ -106,7 +106,7 @@
     legend: {
         orient: 'vertical',
         x:'left',
-        data:['存货量']
+        data:['销售量']
     },
     dataRange: {
         min : 0,

@@ -70,7 +70,7 @@
         <div id="page-wrapper">
             <div class="row">
                 <div class="col-lg-12">
-                    <h1 class="page-header">冰箱监控：广安街43号便民超市</h1>
+                    <h1 class="page-header">冰柜监控：广安街43号便民超市</h1>
                 </div>
                 <!-- /.col-lg-12 -->
             </div>
@@ -78,25 +78,32 @@
             <div class="row">
                 <div class="col-sm-6">
                     <div class="medium">
-                        冰箱状态：
+                        冰柜状态：
                         <span id="data-status" class="store-data">未知</span>
                     </div>
                 </div>
                 <div class="col-sm-6">
                     <div class="medium">
-                        温度：
+                        冰柜位置：
+                        <span id="data-long" class="store-data">未知</span>,
+                        <span id="data-lat" class="store-data">未知</span>
+                    </div>
+                </div>                
+                <div class="col-sm-6">
+                    <div class="medium">
+                        冰柜温度：
                         <span id="data-temp" class="store-data">未知</span>
                     </div>
                 </div>
                 <div class="col-sm-6">
                     <div class="medium">
-                        容量：
+                        冰柜容量：
                         <span id="data-slots" class="store-data">未知</span>
                     </div>
                 </div>
                 <div class="col-sm-6">
                     <div class="medium">
-                        占有量：
+                        冰柜内冰淇淋数量：
                         <span id="data-occupied" class="store-data">未知</span>
                     </div>                    
                 </div>                 
@@ -104,7 +111,7 @@
             <div class="row">
                 <div class="col-sm-12">
                     <div class="medium">
-                        存货内容：
+                        冰柜内冰淇淋种类：
                     </div>
                     <div id="data-contents"></div> 
                 </div>
@@ -138,6 +145,8 @@
                 $('#data-slots').text(data.total);
                 $('#data-occupied').text(data.used);
                 $('#data-temp').text(data.temp);
+                $('#data-long').text(data.long);
+                $('#data-lat').text(data.lat);
                 if (data.online) {
                     $('#data-status').text('在线');
                     $('#data-status').removeClass( "online offline" ).addClass( "online" );
